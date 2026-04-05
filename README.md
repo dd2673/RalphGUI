@@ -1,5 +1,7 @@
 # Ralph GUI
 
+> 本项目是 [Ralph for Claude Code](https://github.com/ Anthropic/claude-code) 的 Python + PySide6 重写版本，专为 Windows 桌面用户设计。
+
 Windows 桌面应用程序，用于管理 Ralph for Claude Code 项目。采用 PySide6 (Qt) 构建，MVP 架构。
 
 ## 功能
