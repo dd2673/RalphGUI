@@ -1,0 +1,7 @@
+PySide6>=6.6.0
+pyyaml>=6.0
+textual>=0.50.0
+
+[dev]
+pytest>=7.0
+pytest-qt>=4.0

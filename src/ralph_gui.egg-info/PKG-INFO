@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ralph-gui
+Version: 0.1.0
+Summary: Ralph for Claude Code - Windows GUI
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: PySide6>=6.6.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: textual>=0.50.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-qt>=4.0; extra == "dev"
+Dynamic: license-file
