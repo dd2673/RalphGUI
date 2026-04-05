@@ -22,6 +22,34 @@ Windows 桌面应用程序，用于管理 Ralph for Claude Code 项目。采用 
 - PyYAML >= 6.0
 - PyInstaller (打包)
 
+## 环境要求
+
+### 运行时环境
+- **操作系统**: Windows 10/11 (64-bit)
+- **Python**: 3.10 或更高版本
+- **内存**: 最低 4GB，推荐 8GB
+- **磁盘空间**: 约 200MB
+
+### 开发环境（可选）
+- **Git**: 用于版本控制和项目初始化
+- **VS Code** 或其他 Python IDE（推荐）
+
+### Python 依赖
+
+```
+PySide6 >= 6.6.0       # Qt GUI 框架
+PyYAML >= 6.0          # YAML 配置文件解析
+pyinstaller >= 6.0      # 打包为可执行文件
+pytest >= 8.0           # 单元测试（可选）
+```
+
+### Claude Code CLI
+
+本应用需要预先安装 Claude Code CLI：
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
 ## 安装
 
 ### 方式一：使用打包版本
